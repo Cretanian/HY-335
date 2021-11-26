@@ -1,0 +1,18 @@
+STAMATAKIS STYLIANOS
+AM4041
+
+Gia to prwto meros,sto TCPClient diavazei to string apo ton xristh kai meta to stelnoyme ston Server.
+Epeita o TCPServer lamvanei to string kai gia na diaxoriso to string koitao ena ena xaraktira toy string 
+mexri na vro '$', opou kseroyme oti einai to telos toy string. Se kathe xaraktira pou koitao vlepo ama einai '\'
+kai an to epomeno apo auto einai 'n' tote se ena Arraylist apo string apothikevo oti koitoysa tosi ora to opoio den
+itan '\'. Molis ftaso sto telos toy string kano ena rand sta stoixia tou Arraylist kai to stelno piso ston Client.
+
+Gia to deutero meros, ekana ena kainourgio client me to onoma STCPClient. Ayto pou kanei einai na pairnei ena String
+apo ton user kai na kanei split gia na paro to method. An to method einai GET tote apla stelno to string allios ama
+einai PUT tote kanei tis aparaitites erotiseis kai afou ftiaksei string to stelnei ston webserver. O Webserver se
+mia while trexei oste na kanei diadoxika aitimata. Afou parei to string apo ton client pairnei to proto token kai 
+vlepei ama einai valid. An to method einai GET tote koitao ama yparxei to arxeio kai epistrefei ta dedomena tou
+kai ftiaxnei kai ton katalilo header. Allios an einai PUT kai den yparxei to arxeio to opoio zitaei o client na
+ftiaksei tote pairnei to body, to opoio theoro ego oti teleionei me </p>, tha mporoyse na teleionei me opiodipote
+allo xaraktira arkei na to kserei o client. Telos grafei mesa sto arxeio to body kai epistrefei ston client to
+katalilo minima.
